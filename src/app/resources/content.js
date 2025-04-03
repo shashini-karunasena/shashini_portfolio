@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Shashini",
+  lastName: "Karunasena",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Civil Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Seoul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Korean", "Sinhalese"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/shashini-karunasena",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://linkedin.com/in/shashinikarunasena/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Google Scholar",
+    icon: "googleScholar",
+    link: "https://scholar.google.com/citations?user=pzKmUzcAAAAJ&hl=en&authuser=6",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:shashini.karunasena@gmail.com",
   },
 ];
 

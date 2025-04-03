@@ -1,4 +1,6 @@
 import { IconType } from "react-icons";
+import { FaGraduationCap } from "react-icons/fa";
+
 
 import {
   HiChevronUp,
@@ -67,4 +69,5 @@ export const iconLibrary: Record<string, IconType> = {
   x: FaXTwitter,
   clipboard: HiClipboard,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
+  googleScholar: FaGraduationCap,
 };
